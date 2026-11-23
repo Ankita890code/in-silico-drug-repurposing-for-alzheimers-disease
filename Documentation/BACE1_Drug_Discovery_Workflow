@@ -1,0 +1,77 @@
+          BACE1 TARGET PROTEIN SELECTION
+                 (PDB ID: 4D8C)
+                       │
+                       ▼
+              PROTEIN PREPARATION
+                       │
+                       ▼
+          FDA-APPROVED DRUG LIBRARY
+               (DrugBank – 3,600)
+                       │
+                       ▼
+               LIGAND PREPARATION
+                    (LigPrep)
+                       │
+                OPLS3e Force Field
+                       │
+                       ▼
+              3D CONFORMER GENERATION
+                 (17,067 conformers)
+                       │
+                       ▼
+             MOLECULAR DOCKING
+              (Schrödinger Glide)
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+        HTVS           SP           XP
+          │            │            │
+          └────────────┼────────────┘
+                       │
+                       ▼
+              HIT IDENTIFICATION
+                       │
+                       ▼
+       PROTEIN–LIGAND INTERACTION ANALYSIS
+                       │
+             Catalytic Residues:
+                Asp93 and Asp289
+                       │
+                       ▼
+                ADMET PREDICTION
+                  (SwissADME)
+                       │
+                       ▼
+           SELECTION OF MD COMPLEXES
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+       DB14726        DB08669       DB07377
+      (Candidate)  (Candidate)   (Candidate)
+          │            │            │
+          └────────────┼────────────┘
+                       │
+                       ▼
+          MOLECULAR DYNAMICS SIMULATION
+                   (Desmond)
+                       │
+              50 ns Production Run
+                       │
+                       ▼
+             MD TRAJECTORY ANALYSIS
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+         RMSD         RMSF     H-Bond Analysis
+          │            │            │
+          └────────────┼────────────┘
+                       │
+                       ▼
+              COMPARATIVE EVALUATION
+                       │
+                       ▼
+         ASSESSMENT OF COMPLEX STABILITY
+                       │
+                       ▼
+       IDENTIFICATION OF POTENTIAL BACE1
+                 INHIBITOR CANDIDATES
